@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Vector store
+chroma_db/
+
+# Database
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
