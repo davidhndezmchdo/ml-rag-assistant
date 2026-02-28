@@ -642,6 +642,9 @@ let activeChatId = null;
 
             if (activeChatId === sentInChatId) {
                 renderMessage('assistant', data.answer, data.sources);
+                if (data.title) {
+                    chatTitle.textContent = data.title;
+                }
             }
 
             await loadChatList();
